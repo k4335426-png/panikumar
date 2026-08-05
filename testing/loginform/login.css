@@ -1,0 +1,36 @@
+.title {
+    background-color: paleturquoise;
+    color: black;
+    font-size: 30px;
+    margin-left: 100px;
+    text-align: center;
+}
+
+.form {
+    text-align: left;
+}
+
+button {
+    background-color: azure;
+    color: grey;
+    cursor: pointer;
+    margin-left: 200px;
+}
+
+button:hover {
+    background-color: blue;
+}
+
+#username {
+    width: 300px;
+    height: 60px;
+    font-size: 17px;
+    color: green;
+}
+
+#password {
+    width: 300px;
+    height: 60px;
+    font-size: 17px;
+    color: red;
+}

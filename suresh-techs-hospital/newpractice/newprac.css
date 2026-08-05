@@ -1,0 +1,12 @@
+button {
+    background-color: pink;
+    color: black;
+    cursor: pointer;
+    margin-left: 200px;
+    font-size: 40px;
+    border-radius: 3px;
+}
+
+button:hover {
+    background-color: orange;
+}

@@ -1,0 +1,32 @@
+.heading {
+    color: red;
+    font-size: 70px;
+    background-color: rgb(37, 155, 37);
+    text-align: center;
+}
+
+.bio-form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3px;
+}
+
+button {
+    background-color: pink;
+    color: grey;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+    padding: 10px;
+}
+
+button:hover {
+    background-color: green;
+}
+
+.styles {
+    background-color: black;
+    color: red;
+    font-size: 30px;
+}
