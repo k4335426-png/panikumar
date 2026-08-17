@@ -62,11 +62,17 @@
             <center>hellow</center>
         </ul>
     </div>
-    <p id="message">hellow</p>
+
+
+    <button id="button">serch</button>
+    <p id="message"></p>
     <script>
-        document.getElementById("message").innerHTML = "hi there!;"
+        let button = document.getElementById("button");
+        let message = document.getElementById("message");
+        button.addEventListener("click", function() {
+            message.textContent = "the serch button was clicked";
+        })
     </script>
-    <button>serch</button>
     <hr>
     <div class="box">love</div>
     <div class="box">emotion</div>
